@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>HOME</h1>
+        <h2 class="score" id="home-score">0</h2>
+        <div class="right-buttons">
+          <button type="button" onclick="addOneHome()">+1</button>
+          <button onclick="addTwoHome()">+2</button>
+          <button onclick="addThreeHome()">+3</button>
+        </div>
+      </div>
+      <div>
+        <h1>GUEST</h1>
+        <h2 class="score" id="guest-score">0</h2>
+        <div class="left-buttons">
+          <button onclick="addOneGuest()">+1</button>
+          <button onclick="addTwoGuest()">+2</button>
+          <button onclick="addThreeGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
