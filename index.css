@@ -51,8 +51,16 @@ button:active {
   max-width: 575px;
   margin: 0 auto;
   background-color: #1b244a;
+}
+
+.flex {
   display: flex;
   justify-content: space-around;
+}
+
+#reset-game {
+  color: #f94f6d;
+  margin-top: 60px;
 }
 
 @font-face {
