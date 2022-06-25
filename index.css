@@ -46,10 +46,11 @@ button:active {
 }
 
 .container {
+  margin: 0 auto;
+  margin-top: 32px;
   padding: 0px;
   padding-bottom: 68px;
   max-width: 575px;
-  margin: 0 auto;
   background-color: #1b244a;
 }
 
